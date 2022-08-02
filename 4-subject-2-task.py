@@ -7,7 +7,7 @@ def calculate():
     x=float(input("Podaj pierwszą liczbę:"))
     y=float(input("Podaj drugą liczbę:"))
     if operation=="1":
-        logging.info("Dodaje %s i %s." %(x,y))
+        logging.info("Dodaję %s i %s." %(x,y))
         print("Wynik to:")
         print(x+y)
     elif operation=="2":
